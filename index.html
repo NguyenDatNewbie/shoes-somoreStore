@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/font/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,500;8..144,700&display=swap'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
     <!-- CSS file -->
     <link rel="stylesheet" href="assets/css/base.css">
@@ -47,11 +47,11 @@
                     </div>
                     <div class="header__nav">
                         <ul class="nav">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contacts </a></li>
-                            <li><a href="">
+                            <li class="header__nav__item"><a href="index.html">Home</a></li>
+                            <li class="header__nav__item"><a href="">Shop</a></li>
+                            <li class="header__nav__item"><a href="">Blog</a></li>
+                            <li class="header__nav__item"><a href="">Contacts </a></li>
+                            <li class="header__nav__item"><a href="">
                                 More
                                 <i class="fa-solid fa-caret-down"></i>
                             </a></li>
@@ -66,10 +66,19 @@
                         </div>
                         <div class="header__user__name">
                             <span>Hi! <b>Dĩ Huỳnh</b></span>
+                            <div class="header__user__name-avt">
+                                <a href=""><img src="assets/img/For-Men.png" alt=""></a>
+                            </div>
+                            <ul class="header__user__info">
+                                <li class="header__user__info-item"><a href="/info.html">Tài khoản cá nhân</a></li>
+                                <li class="header__user__info-item"><a href="">Đăng xuất</a></li>
+                            </ul>
+                            </div>
+                            <div class="header__cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
                         </div>
-                        <div class="header__cart">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -125,8 +134,13 @@
                     <div class="product__marketing__catagories-items">
                         <div class="product__item">
                             <div class="product__img">
-                                <span class="product__label">Sale 50%</span>
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
                                 <img src="assets/img/converst/164944-4.webp.png" alt="">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
                             </div>
                             <div class="product__item-text">
                                 <p>Piqué Biker Jacket</p>
@@ -134,8 +148,7 @@
                                     <span>2.400.000 ₫</span>
                                     <span>-25%</span>
                                 </div>
-                                <a href="#" class="add-cart">+ Add To Cart</a>
-                                <div class="rating">
+                                <div class="product__item-rating">
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
@@ -146,16 +159,20 @@
                         </div>
                         <div class="product__item">
                             <div class="product__img">
-                                <span class="product__label">Sale 50%</span>
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
                                 <img src="assets/img/converst/127440-2.png" alt="">
                             </div>
                             <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
                                 <p>Piqué Biker Jacket</p>
                                 <div class="product__item-price">
                                     <span>2.400.000 ₫</span>
                                     <span>-25%</span>
                                 </div>
-                                <a href="#" class="add-cart">+ Add To Cart</a>
                                 <div class="rating">
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
@@ -167,16 +184,20 @@
                         </div>
                         <div class="product__item">
                             <div class="product__img">
-                                <span class="product__label">Sale 50%</span>
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
                                 <img src="assets/img/converst/vn000d3hbka-5.png" alt="">
                             </div>
                             <div class="product__item-text">
-                                <p>Piqué Biker Jacket</p>
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
+                                <p>Piqué Biker Jacket</p>                              
                                 <div class="product__item-price">
                                     <span>2.400.000 ₫</span>
                                     <span>-25%</span>
                                 </div>
-                                <a href="#" class="add-cart">+ Add To Cart</a>
                                 <div class="rating">
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
@@ -188,16 +209,20 @@
                         </div>
                         <div class="product__item">
                             <div class="product__img">
-                                <span class="product__label">Sale 50%</span>
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
                                 <img src="assets/img/converst/vn0a3wm9vno-6.png" alt="">
                             </div>
                             <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
                                 <p>Piqué Biker Jacket</p>
                                 <div class="product__item-price">
                                     <span>2.400.000 ₫</span>
                                     <span>-25%</span>
                                 </div>
-                                <a href="#" class="add-cart">+ Add To Cart</a>
                                 <div class="rating">
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
@@ -213,7 +238,109 @@
                 <div class="product__marketing__categories">
                     <div class="product__marketing__title">
                         <p>Bán chạy nhất</p>
-                        <a href="">...Xem tất cả</a>
+                        <a href="">...Xem tất cả</a>                      
+                    </div>
+                    <div class="product__marketing__catagories-items">
+                        <div class="product__item">
+                            <div class="product__img">
+                                <div class="product__label">
+                                    <span >Bán chạy nhất</span>
+                                </div>
+                                <img src="assets/img/converst/164944-4.webp.png" alt="">
+                            </div>
+                            <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
+                                <p>Piqué Biker Jacket</p>
+                                <div class="product__item-price">
+                                    <span>2.400.000 ₫</span>
+                                    <span>-25%</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__img">
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
+                                <img src="assets/img/vans/vn0a4uuc1ae-4.png" alt="">
+                            </div>
+                            <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
+                                <p>Piqué Biker Jacket</p>
+                                <div class="product__item-price">
+                                    <span>2.400.000 ₫</span>
+                                    <span>-25%</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__img">
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
+                                <img src="assets/img/vans/vn0a4uuc1ae-4.png" alt="">
+                            </div>
+                            <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
+                                <p>Piqué Biker Jacket</p>
+                                <div class="product__item-price">
+                                    <span>2.400.000 ₫</span>
+                                    <span>-25%</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__img">
+                                <div class="product__label">
+                                    <span >Sale 50%</span>
+                                </div>
+                                <img src="assets/img/vans/vn000zd4y28-1.png" alt="">
+                            </div>
+                            <div class="product__item-text">
+                                <div class="product__btn__add">
+                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                </div>
+                                <p>Piqué Biker Jacket</p>
+                                <div class="product__item-price">
+                                    <span>2.400.000 ₫</span>
+                                    <span>-25%</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
